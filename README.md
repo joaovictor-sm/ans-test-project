@@ -77,18 +77,18 @@ npm run dev
 
 ```
 ans-test-project/
-├── server/           # Código Python
-│   ├── data_transformation/        # Modelos de banco de dados
-│   ├── database/      # Lógica de negócios
-│   ├── main.py        # Servidor principal
-│   ├── web_scraping/
-|   ├── data/
-|   └── test_connection.py
-├── web/          # Aplicação Vite.js em vez de Vue
-│   ├── public/
-│   ├── src/
-│   └── vite.config.js
-└── README.md
+├── server/                   # Código Python
+│   ├── data_transformation/  # Transformação de dados
+│   ├── database/             # Modelos de banco de dados
+│   ├── main.py               # Servidor principal
+│   ├── web_scraping/         # Rotinas de web scraping
+│   ├── data/                 # Dados e arquivos estáticos
+│   └── test_connection.py    # Teste de conexão
+├── web/                      # Aplicação Vite.js
+│   ├── public/               # Arquivos públicos
+│   ├── src/                  # Código fonte do frontend
+│   └── vite.config.js        # Configuração do Vite
+└── README.md                 # Documentação do projeto
 ```
 
 ## 🤝 Contribuição
