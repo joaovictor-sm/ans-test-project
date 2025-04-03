@@ -29,9 +29,9 @@ Este projeto implementa uma solução para o teste de nivelamento da ANS, com fo
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend**: Vue.js 3, Vite, Axios
+- **Frontend**: Vite, React
 - **Backend**: Python, FastAPI, SQLAlchemy
-- **Banco de Dados**: PostgreSQL
+- **Banco de Dados**: PostgreSQL, Neon
 - **Processamento de Dados**: Pandas, pdfplumber
 - **Web Scraping**: BeautifulSoup, requests
 
@@ -39,7 +39,7 @@ Este projeto implementa uma solução para o teste de nivelamento da ANS, com fo
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITORIO]
+git clone https://github.com/joaovictor-sm/ans-test-project
 ```
 
 2. Instale as dependências do web:
